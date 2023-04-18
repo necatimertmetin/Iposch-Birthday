@@ -69,6 +69,7 @@ cards.forEach(card => {
       colorIndex = 0;
     }
   }
+  
   function changeTitleColor() {
     header.style.transition = 'color 0.5s ease-in-out';
     header.style.color = titleColors[titleColorIndex];
